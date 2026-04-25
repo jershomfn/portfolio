@@ -41,3 +41,63 @@ body {
   padding: 50px;
   text-align: center;
 }
+.skills {
+  padding: 50px;
+  text-align: center;
+}
+
+.skills-list span {
+  display: inline-block;
+  background: #1e293b;
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* 🔥 Hover effect */
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+.project-buttons {
+  margin-top: 15px;
+}
+
+.project-buttons a {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 14px;
+  background: #38bdf8;
+  color: black;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.project-buttons a:hover {
+  background: #0ea5e9;
+}
+.socials {
+  margin-top: 20px;
+}
+
+.socials a {
+  margin: 0 10px;
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: bold;
+}
