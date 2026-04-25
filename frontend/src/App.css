@@ -101,3 +101,13 @@ body {
   text-decoration: none;
   font-weight: bold;
 }
+.resume-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 18px;
+  background: #38bdf8;
+  color: black;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}

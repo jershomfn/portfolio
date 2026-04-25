@@ -23,11 +23,19 @@ function App() {
         transition={{ duration: 1 }}
       >
         <h1>Hi, I'm Jershom</h1>
-        <p>Data Science Student | ML | Analytics</p>
+        <p>  Data Science postgraduate building machine learning models and 
+  data-driven solutions to solve real-world problems.</p>
         <div className="socials">
   <a href="https://github.com/jershomfn" target="_blank">GitHub</a>
   
 </div>
+<a 
+  href="/resume.pdf" 
+  target="_blank" 
+  className="resume-btn"
+>
+  Download Resume
+</a>
       </motion.header>
 
 
@@ -80,13 +88,22 @@ function App() {
     </div>
 
     <div className="project-card">
-      <h3>AI Surveillance System</h3>
-      <p>Real-time monitoring using computer vision.</p>
-      <div className="project-buttons">
-    <a href="#" target="_blank" rel="noreferrer">Live</a>
-    <a href="#" target="_blank" rel="noreferrer">Code</a>
+  <h3>AI-Based Smart Surveillance System</h3>
+  <p>
+    Developed a real-time surveillance system using computer vision to detect 
+    collisions, fire, and abnormal crowd behavior using YOLOv8 and OpenCV.
+  </p>
+
+  <div className="project-buttons">
+    <a 
+      href="https://github.com/jershomfn/ai-surveillance-system"
+      target="_blank"
+      rel="noreferrer"
+    >
+      View Code
+    </a>
   </div>
-    </div>
+</div>
 
   </div>
 </motion.section>
