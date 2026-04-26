@@ -167,3 +167,10 @@ body {
   font-size: 16px;
   letter-spacing: 0.5px;
 }
+.skills-list span {
+  background: #1e293b;
+  padding: 8px 14px;
+  border-radius: 20px;
+  margin: 5px;
+  display: inline-block;
+}

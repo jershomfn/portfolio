@@ -62,6 +62,7 @@ function App() {
           <span>Data Structures</span>
           <span>SQL</span>
           <span>Power BI</span>
+          <span>Computer Vision</span>
         </div>
       </motion.section>
 
