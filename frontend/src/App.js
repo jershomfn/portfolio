@@ -79,13 +79,18 @@ function App() {
     </div>
 
     <div className="project-card">
-      <h3>Data Analysis Dashboard</h3>
-      <p>Interactive dashboard built with visualization tools.</p>
-      <div className="project-buttons">
-    <a href="#" target="_blank" rel="noreferrer">Live</a>
-    <a href="#" target="_blank" rel="noreferrer">Code</a>
-  </div>
-    </div>
+  <h3>Scalable Sentiment Analysis Pipeline</h3>
+  <p>
+    Built a distributed sentiment analysis pipeline using PySpark for large-scale text processing, model training, and insight generation.
+  </p>
+  <a 
+    href="https://github.com/jershomfn/sentiment-analysis"
+    target="_blank"
+    rel="noreferrer"
+  >
+    View Code
+  </a>
+</div>
 
     <div className="project-card">
   <h3>AI-Based Smart Surveillance System</h3>
