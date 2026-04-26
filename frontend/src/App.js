@@ -23,22 +23,29 @@ function App() {
         transition={{ duration: 1 }}
       >
         <h1>Hi, I'm Jershom</h1>
-        <p>  Data Science postgraduate building machine learning models and 
-  data-driven solutions to solve real-world problems.</p>
+        <p className="tagline">Data Science | Machine Learning | Data Engineering</p>
+        <p>
+         <p>
+  Data Science postgraduate specializing in data analysis, machine learning, and predictive modeling. 
+  I build scalable pipelines and extract meaningful insights from data to solve real-world problems.
+</p>
+        </p>
+
         <div className="socials">
-  <a href="https://github.com/jershomfn" target="_blank">GitHub</a>
-  
-</div>
-<a 
-  href="/resume.pdf" 
-  target="_blank" 
-  className="resume-btn"
->
-  Download Resume
-</a>
+          <a href="https://github.com/jershomfn" target="_blank" rel="noreferrer">
+            GitHub
+          </a>
+        </div>
+
+        <a 
+          href="/resume.pdf" 
+          target="_blank" 
+          rel="noreferrer"
+          className="resume-btn"
+        >
+          Download Resume
+        </a>
       </motion.header>
-
-
 
       {/* Skills Section */}
       <motion.section 
@@ -52,7 +59,7 @@ function App() {
           <span>Python</span>
           <span>Machine Learning</span>
           <span>Data Analysis</span>
-          <span>Data Structure</span>
+          <span>Data Structures</span>
           <span>SQL</span>
           <span>Power BI</span>
         </div>
@@ -60,58 +67,68 @@ function App() {
 
       {/* Projects Section */}
       <motion.section 
-  className="projects"
-  initial={{ opacity: 0 }}
-  whileInView={{ opacity: 1 }}
-  transition={{ duration: 1 }}
->
-  <h2>Projects</h2>
+        className="projects"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
+        <h2>Projects</h2>
 
-  <div className="projects-container">
+        <div className="projects-container">
 
-    <div className="project-card">
-      <h3>Machine Learning Project</h3>
-      <p>Prediction model using Python and ML algorithms.</p>
-      <div className="project-buttons">
-    <a href="#" target="_blank" rel="noreferrer">Live</a>
-    <a href="#" target="_blank" rel="noreferrer">Code</a>
-  </div>
-    </div>
+          {/* Electricity Project */}
+          <div className="project-card electricity">
+            <h3>Electricity Consumption Analysis & Anomaly Detection</h3>
+            <p>
+              Built a data processing pipeline using Python (Pandas) to clean, transform, and analyze electricity consumption data, including feature engineering and rule-based anomaly detection, integrated with a Power BI dashboard for visualization.
+            </p>
+            <a 
+              href="https://github.com/jershomfn/electricity-consumption-analysis"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Project
+            </a>
+          </div>
 
-    <div className="project-card">
-  <h3>Scalable Sentiment Analysis Pipeline</h3>
-  <p>
-    Built a distributed sentiment analysis pipeline using PySpark for large-scale text processing, model training, and insight generation.
-  </p>
-  <a 
-    href="https://github.com/jershomfn/sentiment-analysis"
-    target="_blank"
-    rel="noreferrer"
-  >
-    View Code
-  </a>
-</div>
+          {/* Sentiment Project */}
+          <div className="project-card">
+            <h3>Scalable Sentiment Analysis Pipeline</h3>
+            <p>
+              Built a distributed sentiment analysis pipeline using PySpark for large-scale text processing, model training, and insight generation.
+            </p>
+            <a 
+              href="https://github.com/jershomfn/sentiment-analysis"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Code
+            </a>
+          </div>
 
-    <div className="project-card">
-  <h3>AI-Based Smart Surveillance System</h3>
-  <p>
-    Developed a real-time surveillance system using computer vision to detect 
-    collisions, fire, and abnormal crowd behavior using YOLOv8 and OpenCV.
-  </p>
+          {/* Surveillance Project */}
+          <div className="project-card">
+            <h3>AI-Based Smart Surveillance System</h3>
+            <p>
+              Developed a real-time surveillance system using computer vision to detect collisions, fire, and abnormal crowd behavior using YOLOv8 and OpenCV.
+            </p>
+            <a 
+              href="https://github.com/jershomfn/ai-surveillance-system"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Code
+            </a>
+          </div>
 
-  <div className="project-buttons">
-    <a 
-      href="https://github.com/jershomfn/ai-surveillance-system"
-      target="_blank"
-      rel="noreferrer"
-    >
-      View Code
-    </a>
-  </div>
-</div>
-
-  </div>
-</motion.section>
+        </div>
+      </motion.section>
+      {/* Education Section */}
+      <section className="education">
+        <h2>Education</h2>
+        <p>M.Tech in Data Science</p>
+        <p>B.E in Computer Science and Engineering</p>
+      </section>
 
       {/* Contact Section */}
       <section className="contact">
